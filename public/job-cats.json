@@ -1,21 +1,24 @@
 {
-    "categories": [
-      {
-        "name": "Account & Finance",
-        "jobsAvailable": 300
-      },
-      {
-        "name": "Creative Design",
-        "jobsAvailable": 100
-      },
-      {
-        "name": "Marketing & Sales",
-        "jobsAvailable": 150
-      },
-      {
-        "name": "Engineering Job",
-        "jobsAvailable": 224
-      }
-    ]
-  }
-  
+  "categories": [
+    {
+      "name": "Account & Finance",
+      "jobsAvailable": 300,
+      "img-link": "https://img.icons8.com/plasticine/100/000000/money.png"
+    },
+    {
+      "name": "Creative Design",
+      "jobsAvailable": 100,
+      "img-link": "https://img.icons8.com/plasticine/100/000000/idea.png"
+    },
+    {
+      "name": "Marketing & Sales",
+      "jobsAvailable": 150,
+      "img-link": "https://img.icons8.com/color/96/000000/sales-performance.png"
+    },
+    {
+      "name": "Engineering Job",
+      "jobsAvailable": 224,
+      "img-link": "https://img.icons8.com/plasticine/100/000000/gears.png"
+    }
+  ]
+}
