@@ -1,0 +1,33 @@
+{
+    "featuredJobs": [
+      {
+        "title": "Software Engineer",
+        "company": "Google",
+        "logoUrl": "https://www.pngall.com/wp-content/uploads/5/Google-Logo-PNG-Free-Image.png",
+        "address": "Mountain View, CA 94043, USA",
+        "salary": "$150,000 - $200,000"
+      },
+      {
+        "title": "Product Manager",
+        "company": "Netflix",
+        "logoUrl": "https://logowik.com/content/uploads/images/750_netflix.jpg",
+        "address": "Los Gatos, CA, USA",
+        "salary": "$180,000 - $250,000"
+      },
+      {
+        "title": "Data Scientist",
+        "company": "Facebook",
+        "logoUrl": "https://hindubabynames.info/downloads/wp-content/themes/hbn_download/download/social-media/facebook-logo.png",
+        "address": "1 Hacker Way, Menlo Park, CA 94025, USA",
+        "salary": "$170,000 - $220,000"
+      },
+      {
+        "title": "Software Development Engineer",
+        "company": "Amazon",
+        "logoUrl": "https://thumbs.dreamstime.com/b/simple-vector-filled-flat-amazon-icon-logo-solid-black-pictogram-isolated-white-background-amazon-logo-159029074.jpg",
+        "address": "Seattle, WA, USA",
+        "salary": "$160,000 - $220,000"
+      }
+    ]
+  }
+  

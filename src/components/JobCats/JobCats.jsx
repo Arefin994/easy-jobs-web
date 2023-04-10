@@ -16,8 +16,8 @@ const JobCats = () => {
             <div className="d-md-flex p-3">
 
                 {jobCats.map((cat, index) => (
-                    <div className="me-4 bg-secondary p-4 rounded-4 my-2" key={index}>
-                        <img src={cat["img-link"]} alt={cat.name} />
+                    <div className="me-4 bg-light p-4 rounded-4 my-2 shadow" key={index}>
+                        <img className='border border-danger rounded-4' src={cat["img-link"]} alt={cat.name} />
                         <h4>{cat.name}</h4>
                         <p>{cat.jobsAvailable} Jobs Available</p>
                     </div>

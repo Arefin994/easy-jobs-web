@@ -1,0 +1,18 @@
+.card {
+    height: 100%;
+  }
+  
+  .card-body {
+    height: auto;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 100px;
+  }
+  .job-card-img {
+    height: 100px;
+  }
+  .btn{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+  }

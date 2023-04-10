@@ -5,6 +5,7 @@ import './App.css'
 import Nav from './components/Nav/Nav'
 import Banner from './components/Banner/Banner'
 import JobCats from './components/JobCats/JobCats'
+import Jobs from './components/Jobs/Jobs'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Nav></Nav>
       <Banner></Banner>
       <JobCats></JobCats>
+      <Jobs></Jobs>
     </div>
   )
 }
