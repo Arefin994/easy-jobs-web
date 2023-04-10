@@ -1,6 +1,6 @@
 import React from 'react';
 import './ShowDetails.css'
-
+import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 const ShowDetails = () => {
   const jobDetails = JSON.parse(localStorage.getItem('jobDetails'));
   console.log(jobDetails);
@@ -20,7 +20,7 @@ const ShowDetails = () => {
   return (
     <div>
       <div className='custom-bg'>
-        <h3 className='p-5 text-center'>Job Details</h3>
+        <h3 className='p-5 text-center'>Job Details of "{jobDetails.title}-{jobDetails.company}"</h3>
       </div>
 
       <div className='d-flex'>
@@ -41,9 +41,9 @@ const ShowDetails = () => {
             <h5 className='fw-bolder py-2'>Contact Information</h5>
             <hr />
             <div>
-              <h6><span className='fw-bold'>Phone: </span>{jobDetails.contact.phone}</h6>
-              <h6><span className='fw-bold'>Email: </span>{jobDetails.contact.email}</h6>
-              <h6><span className='fw-bold'>Address: </span>{jobDetails.address}</h6>
+              <h6><FaPhone className="me-2" /><span className='fw-bold'>Phone: </span>{jobDetails.contact.phone}</h6>
+              <h6><FaEnvelope className="me-2" /><span className='fw-bold'>Email: </span>{jobDetails.contact.email}</h6>
+              <h6><FaMapMarkerAlt className="me-2" /><span className='fw-bold'>Address: </span>{jobDetails.address}</h6>
             </div>
           </div>
           <button className='btn' onClick={handleApplyNow}>Apply Now</button>
