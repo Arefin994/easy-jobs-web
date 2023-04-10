@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { BsFillBriefcaseFill } from 'react-icons/bs';
 import { RiMoneyDollarCircleFill } from 'react-icons/ri';
 import { FiMapPin } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 import './Jobs.css';
 
@@ -14,6 +15,10 @@ const Jobs = () => {
       .then(response => response.json())
       .then(data => setFeaturedJobs(data.featuredJobs));
   }, []);
+
+  const handleShowDetails = (job) => {
+    localStorage.setItem('jobDetails', JSON.stringify(job));
+  };
 
   return (
     <div className="container my-5">
@@ -42,7 +47,7 @@ const Jobs = () => {
                   <RiMoneyDollarCircleFill className="me-2" />
                   <p className="card-text">{job.salary} per year</p>
                 </div>
-                <button className='btn btn-primary my-2'>Show details</button>
+                <Link to={`/jobDetails/`} className='btn btn-primary my-2' onClick={() => handleShowDetails(job)}>Show details</Link>
               </div>
             </motion.div>
             
