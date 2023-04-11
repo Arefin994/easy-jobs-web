@@ -12,6 +12,7 @@ import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
 import App from './App';
 import ShowDetails from './components/ShowDetails/ShowDetails';
+import Error from './components/Error/Error';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/jobDetails',
         element: <ShowDetails></ShowDetails>
+      },
+      {
+        path: '*',
+        element: <Error></Error>
       }
     ]
   },
