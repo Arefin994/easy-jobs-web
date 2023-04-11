@@ -1,6 +1,9 @@
 import React from 'react';
 import './ShowDetails.css'
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const ShowDetails = () => {
   const jobDetails = JSON.parse(localStorage.getItem('jobDetails'));
   console.log(jobDetails);
@@ -9,16 +12,17 @@ const ShowDetails = () => {
     const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
     const isJobAlreadyApplied = appliedJobs.some(job => job.title === jobDetails.title);
     if (isJobAlreadyApplied) {
-      alert('This job has already been applied for!');
+      toast.error('This job has already been applied for!');
     } else {
       appliedJobs.push(jobDetails);
       localStorage.setItem('appliedJobs', JSON.stringify(appliedJobs));
-      alert('Job Applied Successfully!');
+      toast.success('Job Applied Successfully!');
     }
   }
 
   return (
     <div>
+      <ToastContainer />
       <div className='custom-bg'>
         <h3 className='p-5 text-center'>Job Details of "{jobDetails.title}-{jobDetails.company}"</h3>
       </div>

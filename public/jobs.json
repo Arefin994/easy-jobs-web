@@ -71,6 +71,42 @@
         "phone": "555-3456",
         "email": "jobs@amazon.com"
       }
+    },
+    {
+      "id": "5",
+      "title": "UI/UX Designer",
+      "company": "Apple",
+      "logoUrl": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png?202110180743",
+      "address": "Cupertino, CA, USA",
+      "salary": "$120,000 - $160,000",
+      "description": "We are looking for a talented UI/UX designer to join our team. The ideal candidate will have a strong background in design and a passion for creating beautiful and intuitive user interfaces.",
+      "responsibility": "Design and implement beautiful and intuitive user interfaces for our products.",
+      "experience": "3+ years of experience in UI/UX design or related field.",
+      "education": "Bachelor's degree in Design or related field",
+      "time": "Full-time",
+      "ot": "Onsite",
+      "contact": {
+        "phone": "555-6789",
+        "email": "hr@apple.com"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Marketing Manager",
+      "company": "Microsoft",
+      "logoUrl": "https://1000logos.net/wp-content/uploads/2017/04/Microsoft-logo.jpg",
+      "address": "Redmond, WA, USA",
+      "salary": "$150,000 - $200,000",
+      "description": "We are seeking a talented and experienced marketing manager to help us drive growth and engagement for our products. The ideal candidate will have a strong background in marketing and a proven track record of success.",
+      "responsibility": "Develop and execute marketing strategies to drive growth and engagement for our products.",
+      "experience": "7+ years of experience in marketing or related field.",
+      "education": "Bachelor's degree in Marketing or related field",
+      "time": "Full-time",
+      "ot": "Onsite",
+      "contact": {
+        "phone": "555-2345",
+        "email": "hr@microsoft.com"
+      }
     }
   ]
 }

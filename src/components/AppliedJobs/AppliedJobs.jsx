@@ -16,11 +16,11 @@ const AppliedJobs = () => {
             </div>
             <ul>
                 {appliedJobs.map((job, index) => (
-                    <div className='d-flex border rounded my-3 p-3'>
+                    <div className='d-flex border rounded my-3 p-3 shadow'>
                         <div className='d-flex align-items-center'>
                             <img src={job.logoUrl} className="custom-img image-fluid rounded" alt={job.company} />
                         </div>
-                        <div>
+                        <div className='px-3'>
                             <h5>{job.title}</h5>
                             <h6>{job.company}</h6>
                             <div className='d-flex'>
