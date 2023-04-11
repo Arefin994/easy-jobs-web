@@ -6,7 +6,6 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const ShowDetails = () => {
   const jobDetails = JSON.parse(localStorage.getItem('jobDetails'));
-  console.log(jobDetails);
 
   const handleApplyNow = () => {
     const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];

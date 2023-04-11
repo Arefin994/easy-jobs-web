@@ -12,7 +12,7 @@
       "experience": "5+ years of experience in software development.",
       "education": "Master's degree or PhD in Computer Science, Statistics, Mathematics or related field",
       "time": "Part-time",
-      "ot": "Onsite",
+      "ot": "Remote",
       "contact": {
         "phone": "555-1234",
         "email": "hr@google.com"
@@ -48,7 +48,7 @@
       "experience": "3+ years of experience in data science or related field.",
       "education": "PhD in Computer Science",
       "time": "Part-time",
-      "ot": "Onsite",
+      "ot": "Remote",
       "contact": {
         "phone": "555-9012",
         "email": "hr@facebook.com"
@@ -66,7 +66,7 @@
       "experience": "5+ years of experience in software development.",
       "education": "Cse Degree",
       "time": "Part-time",
-      "ot": "Onsite",
+      "ot": "Remote",
       "contact": {
         "phone": "555-3456",
         "email": "jobs@amazon.com"

@@ -1,21 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './AppliedJobs.css';
 
 const AppliedJobs = () => {
+    const [filter, setFilter] = useState('all');
     const appliedJobs = JSON.parse(localStorage.getItem('appliedJobs')) || [];
 
     const handleShowDetails = (job) => {
         localStorage.setItem('jobDetails', JSON.stringify(job));
     }
 
+    const handleFilter = (type) => {
+        setFilter(type);
+    }
+
+    const filteredJobs = filter === 'remote' ? appliedJobs.filter(job => job.ot === 'Remote') :
+        filter === 'onsite' ? appliedJobs.filter(job => job.ot === 'Onsite') :
+            appliedJobs;
+
     return (
         <div>
             <div className='custom-bg'>
                 <h3 className='p-5 text-center'>Job Applied</h3>
             </div>
+            <div className='d-flex justify-content-end'>
+                <button className={`btn mx-2 ${filter === 'all' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleFilter('all')}>All</button>
+                <button className={`btn mx-2 ${filter === 'remote' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleFilter('remote')}>Remote</button>
+                <button className={`btn mx-2 ${filter === 'onsite' ? 'btn-primary' : 'btn-outline-primary'}`} onClick={() => handleFilter('onsite')}>Onsite</button>
+            </div>
             <ul>
-                {appliedJobs.map((job, index) => (
+                {filteredJobs.map((job, index) => (
                     <div className='d-flex border rounded my-3 p-3 shadow'>
                         <div className='d-flex align-items-center'>
                             <img src={job.logoUrl} className="custom-img image-fluid rounded" alt={job.company} />

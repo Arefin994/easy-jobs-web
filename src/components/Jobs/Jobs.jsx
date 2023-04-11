@@ -58,7 +58,7 @@ const Jobs = () => {
           </div>
         ))}
       </div>
-      <div className="text-center my-4">
+      <div className="text-center">
         {visibleJobs < featuredJobs.length && (
           <button className="btn btn-primary my-2" onClick={() => setVisibleJobs(visibleJobs + 4)}>Show More</button>
         )}
