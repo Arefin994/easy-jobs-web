@@ -11,9 +11,9 @@ const AppliedJobs = () => {
 
     return (
         <div>
-             <div className='custom-bg'>
-        <h3 className='p-5 text-center'>Job Applied</h3>
-      </div>
+            <div className='custom-bg'>
+                <h3 className='p-5 text-center'>Job Applied</h3>
+            </div>
             <ul>
                 {appliedJobs.map((job, index) => (
                     <div className='d-flex border rounded my-3 p-3'>
@@ -23,6 +23,10 @@ const AppliedJobs = () => {
                         <div>
                             <h5>{job.title}</h5>
                             <h6>{job.company}</h6>
+                            <div className='d-flex'>
+                                <div className='me-2 my-2 border border-primary text-primary p-1 rounded-2'>{job.ot}</div>
+                                <div className='me-2 my-2 border border-primary text-primary p-1 rounded-2'>{job.time}</div>
+                            </div>
                             <div className='d-flex'>
                                 <div className='d-flex my-auto'>
                                     <i class="fa-solid fa-location-dot mx-2 my-1"></i>

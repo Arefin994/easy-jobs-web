@@ -39,6 +39,10 @@ const Jobs = () => {
               <BsFillBriefcaseFill className="me-2" />
               <p className="card-text">{job.company}</p>
             </div>
+            <div className='d-flex'>
+              <div className='me-2 my-2 border border-primary text-primary p-1 rounded-2'>{job.ot}</div>
+              <div className='me-2 my-2 border border-primary text-primary p-1 rounded-2'>{job.time}</div>
+            </div>
             <div className="d-flex align-items-center job-card-icon">
               <FiMapPin className="me-2" />
               <p className="card-text">{job.address}</p>

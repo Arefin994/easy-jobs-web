@@ -10,7 +10,9 @@
       "description": "We are looking for a talented and experienced software engineer to join our team. The ideal candidate will have a strong background in computer science and a passion for creating innovative software solutions.",
       "responsibility": "Develop and maintain high-quality software using industry-standard tools and technologies.",
       "experience": "5+ years of experience in software development.",
-      "education": "Cse Degree",
+      "education": "Master's degree or PhD in Computer Science, Statistics, Mathematics or related field",
+      "time": "Part-time",
+      "ot": "Onsite",
       "contact": {
         "phone": "555-1234",
         "email": "hr@google.com"
@@ -26,7 +28,9 @@
       "description": "We are seeking a talented and experienced product manager to help us build the next generation of streaming entertainment products. The ideal candidate will be able to navigate complex product development challenges and drive projects from ideation to launch.",
       "responsibility": "Lead cross-functional teams to deliver high-quality products on time and within budget.",
       "experience": "7+ years of experience in product management or related field.",
-      "education": "Cse Degree",
+      "education": "Bachelor's degree in Computer Science or related field",
+      "time": "Part-time",
+      "ot": "Onsite",
       "contact": {
         "phone": "555-5678",
         "email": "hr@netflix.com"
@@ -42,7 +46,9 @@
       "description": "We are looking for a data scientist to help us extract insights from complex data sets. The ideal candidate will have a strong background in statistics and machine learning, and experience applying these skills to real-world problems.",
       "responsibility": "Use statistical and machine learning techniques to extract insights from complex data sets.",
       "experience": "3+ years of experience in data science or related field.",
-      "education": "Cse Degree",
+      "education": "PhD in Computer Science",
+      "time": "Part-time",
+      "ot": "Onsite",
       "contact": {
         "phone": "555-9012",
         "email": "hr@facebook.com"
@@ -59,6 +65,8 @@
       "responsibility": "Design and implement scalable software systems using industry-standard tools and technologies.",
       "experience": "5+ years of experience in software development.",
       "education": "Cse Degree",
+      "time": "Part-time",
+      "ot": "Onsite",
       "contact": {
         "phone": "555-3456",
         "email": "jobs@amazon.com"

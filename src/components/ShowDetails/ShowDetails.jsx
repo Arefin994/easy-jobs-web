@@ -27,7 +27,7 @@ const ShowDetails = () => {
         <div className='w-75 p-4'>
           <p><span className='fw-bold'>Job Description: </span>{jobDetails.description}</p>
           <p><span className='fw-bold'>Job responsibility: </span>{jobDetails.responsibility}</p>
-          <p><span className='fw-bold'> Educational Requirements: </span>{jobDetails.description}</p>
+          <p><span className='fw-bold'> Educational Requirements: </span>{jobDetails.education}</p>
           <p><span className='fw-bold'>Job experience: </span>{jobDetails.experience}</p>
         </div>
         <div className='w-25 p-4 custom-bg'>
